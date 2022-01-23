@@ -51,7 +51,7 @@
       <div class="search-container">
           
           <form action="/" class="form">
-              <input v-model="email" type="text" id="email" placeholder="Search product" class="search-input">
+              <input  type="text" id="search" placeholder="Search product" class="search-input">
           </form>
   
       </div>   
@@ -386,6 +386,12 @@ export default {
 .product-info figure img{
     width: 35px;
     height: 35px;
+}
+
+@media (min-width: 640px){
+  .nav-container{
+      margin-bottom: 12px;
+    }
 }
 
 @media (max-width: 640px) {

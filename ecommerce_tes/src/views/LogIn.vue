@@ -133,4 +133,10 @@ export default {
     border: 1px solid;
 }
 
+@media (max-width: 640px) {
+    .logo{
+        display: block
+    };
+}
+
 </style>

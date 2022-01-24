@@ -4,8 +4,8 @@
             <img src="../assets/logo_yard_sale.svg" alt="logo" class="logo">
 
             <form action="/" class="form">
-                <label for="email" class="label">Email addres</label>
-                <input v-model="email" type="text" id="email" placeholder="baltovich@gmail.com" class="input input-password input-email">
+                <label for="email" class="label">User</label>
+                <input v-model="email" type="text" id="email" placeholder="PepeExample" class="input input-password input-email">
 
                 <label for="password" class="label">Password</label>
                 <input v-model="password" type="password" id="password" placeholder="********" class="input input-password">
